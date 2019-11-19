@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+
+        <link rel="stylesheet" type="text/css" href="css/formulario.css">
+         <script type = "text/javascript" src = "validaciones.js"></script> 
+        
+        
+
+<title>INICAR SESION</title>
+
+
+<center>
+<h1> INICIAR SESION</h1>
+
+<h3>LLENE LOS CAMPOS</h3>
+</center>
+
+<body>
+    
+<header class="titulo3" >
+     
+        <form id="formulario01" method="POST" action="usuariocreado.php"
+        onsubmit="return validarCamposObligatorios()">
+        <label for="cedula">Cedula(*)</label>
+        <input type="text" id="cedula" name="cedula" value="" placeholder="Ingrese el número de cedula... " onkeyup=" return valNumeros(this)"/>
+        <span id="mensajeCedula" class="error"> </span>
+        <br>
+        <label for="nombres">Nombres (*)</label>
+        <input type="text" id="nombres" name="nombres" value="" placeholder="Ingrese sus dos nombres..."
+            onkeyup="valLetras(this)" />
+        <span id="mensajeNombres" class="error"></span>
+        <br>
+        <label for="apellidos">Apelidos (*)</label>
+        <input type="text" id="apellidos" name="apellidos" value="" placeholder="Ingrese sus dos apellidos..."
+            onkeyup="valLetras(this)" />
+        <span id="mensajeApellidos" class="error"></span>
+        <br>
+        <label for="direccion">Dirección (*)</label>
+        <input type="text" id="direccion" name="direccion" value="" placeholder="Ingrese su dirección ..." />
+        <span id="mensajeDireccion" class="error"></span>
+        <br>
+        <label for="telefono">Teléfono (*)</label>
+        <input type="text" id="telefono" name="telefono" value="" placeholder="Ingrese su número telefónico..."
+            onkeyup="valNumeros(this)" />
+        <span id="mensajeTelefono" class="error"></span>
+        <br>
+        <label for="fecha">Fecha Nacimiento dd/mm/yyyy (*)</label>
+        <input type="text" id="fechaNacimiento" name="fechaNacimiento" value=""
+            placeholder="Ingrese su fecha de nacimiento ..." onkeyup=" return valFecha(this)" />
+        <span id="mensajeFechaNacimiento" class="error"></span>
+        <br>
+        <label for="correo">Correo electrónico (*)</label>
+        <input type="text" id="correo" name="correo" value="" placeholder="Ingrese su correo electrónico..." />
+        <span id="mensajeCorreo" class="error"></span>
+        <br>
+        <label for="contrasena">Contraseña(*)</label>
+        <input type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese su contraseña..."
+        onkeyup=" return valContra(this)"/>
+        <span id="mensajeContrasena" class="error"></span>
+        <br>
+        <input  type="submit" id="crear" name="crear" value="   Aceptar" />
+        <input type="reset" id="cancelar" name="cancelar" value="   Cancelar" />
+    </form>
+
+
+
+</header>
+
+
+</body>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<footer class="dark">     
+        <p> <strong>ESTUDIANTE: </strong> DAVID ISRAEL LEON GALLARDO</p>
+        <p><strong>UNIVERSIDAD : </strong> Politecnica Salesiana </p> 
+          <a href="mailto:dleong2@est.ups.edu.ec">dleong2@est.ups.edu.ec</a>
+               <a href="tel:+593-984947138">0984947138</a>
+            <br>© Todos los derechos reservados
+           </footer>
+
+</html>
+
