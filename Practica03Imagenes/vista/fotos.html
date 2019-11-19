@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Galeria de Imagenes en HTML</title>
+
+    <script type="text/javascript" src="../controladores/controlador.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+
+<body onload="validarPos()">
+
+    <form onsubmit="return siguienteImg()">
+
+
+        <img id="imagen" alt="imagen">
+
+        <br />
+
+        <input type="button" id="anterior" value="ANTERIOR" onclick="anteriorImg()">
+        <input type="button" id="iniciar" value="INICIAR" onclick="reiniciar()">
+        <input type="button" id="siguiente" value="SIGUIENTE" onclick="siguienteImg()">
+
+    </form>
+
+
+
+
+</body>
+
+</html>
