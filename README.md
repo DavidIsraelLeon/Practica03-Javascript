@@ -168,4 +168,16 @@ Cuando estamos en la ultima imagen damos clic en anterior, pero no se nos da ya 
 </html>
 ```
 
+### RESULTADO(S) OBTENIDO(S):
 
+• Se creo el respectivo formulario con las validaciones de cada uno de los campos de texto, asi como se aprendio a usar javascript con mas profundidad  ya que lo que nos dan en clases no es tanto reflejado al trabajo que se tuve que hacer e investigar o pedir ayuda. 
+
+### CONCLUSIONES
+
+•	Investigar mas a profundo lo que se da en clases por que es poco lo que se enseña en clases y tener un tiempo necesario para poder resolver la practica.
+
+### RECOMENDACIONES
+
+•	Revisar la información proporcionada por el docente previo a la práctica.
+•	Haber asistido a las sesiones de clase.
+•	Consultar con el docente las dudas que puedan surgir al momento de realizar la práctica.
